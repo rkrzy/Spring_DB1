@@ -17,7 +17,7 @@ import static hello.jdbc.connection.ConnectionConst.*;
 public class ConnectionTest {
 
     @Test
-    void driverManaber() throws SQLException
+    void driverManager() throws SQLException
     {
         Connection con1 = DriverManager.getConnection(URL, USERNAME, PASSWORD);
         Connection con2 = DriverManager.getConnection(URL, USERNAME, PASSWORD);
